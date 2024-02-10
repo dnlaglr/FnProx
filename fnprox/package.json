@@ -1,34 +1,28 @@
 {
-  "name": "fnprox-js",
+  "name": "fnprox",
   "version": "1.0.0",
-  "description": "Function approximation library",
+  "description": "A simple function approximation library.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
-    "test": "jest",
+    "test": "",
     "build": "tsup"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dnlaglr/FnProx.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "dnlaglr",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dnlaglr/FnProx/issues"
   },
   "homepage": "https://github.com/dnlaglr/FnProx#readme",
   "devDependencies": {
-    "@types/jest": "^29.5.11",
-    "@types/react": "^18.2.50",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
-    "tsup": "^8.0.1",
+    "tsup": "^8.0.2",
     "typescript": "^5.3.3"
   }
 }

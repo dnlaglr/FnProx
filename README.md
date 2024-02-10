@@ -1,1 +1,1 @@
-# FnProx - Function Approximation
+# FnProx - Function Approximation Library
